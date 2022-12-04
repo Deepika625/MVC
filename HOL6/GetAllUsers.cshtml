@@ -1,0 +1,12 @@
+﻿@model HOL6.Models.user
+
+<table width="50%">
+    @foreach (var user in Model)
+    {
+        <tr>
+            <td align="center">@user.UserName</td>
+            <td align="center">@user.password</td>
+        </tr>
+    }
+</table>
+
